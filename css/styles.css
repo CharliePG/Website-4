@@ -64,7 +64,7 @@ a:hover{
 .logo{
     width:100px;
     height: 100px;
-    margin-right: 2%;
+    margin-right: 25px ;
 }
 
 .navbar-brand{
@@ -113,24 +113,28 @@ a:hover{
     font-size: 1.25rem;
 }
 
+#header{
+    padding-top: 190px;
+}
+
 #header .container-fluid{
     padding: 15% 25%;
 }
 
 .karate-header{
-    background-image:linear-gradient(rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.5)), url('../images/karate.jpg');
+    background-image:linear-gradient(rgba(100, 100, 100, 0.6), rgba(100, 100, 100, 0.6)), url('../images/karate.jpg');
 }
 
 .kickboxing-header{
-    background-image:linear-gradient(rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.5)), url('../images/boxing.jpg');
+    background-image:linear-gradient(rgba(100, 100, 100, 0.6), rgba(100, 100, 100, 0.6)), url('../images/boxing.jpg');
 }
 
 .kung-fu-header{
-    background-image:linear-gradient(rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.5)), url('../images/kung-fu.jpg');
+    background-image:linear-gradient(rgba(100, 100, 100, 0.6), rgba(100, 100, 100, 0.6)), url('../images/kung-fu.jpg');
 }
 
 .fitness-header{
-    background-image:linear-gradient(rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.5)), url('../images/fitness.jpg');
+    background-image:linear-gradient(rgba(100, 100, 100, 0.6), rgba(100, 100, 100, 0.6)), url('../images/fitness.jpg');
    
 }
 
@@ -237,10 +241,6 @@ a:hover{
 
 @media (max-width: 1028px){
     
-    #title{
-        text-align: center;
-    }
-
     .title-image{
         position: static;
         width: 60%;
@@ -255,6 +255,7 @@ a:hover{
 
    #title .container-fluid{
     padding-left:5%;
+    padding-right: 5%;
    }
 }
 
@@ -267,3 +268,16 @@ a:hover{
     .navbar-toggleable-sm.collapse {display:none !important}
     .navbar-toggleable-sm.collapse.in {display:block !important}
   }
+
+@media(max-width:678px){
+    .navbar-brand{
+        font-size: 2.25rem;
+    }
+}
+
+@media(max-width:592px){
+    .navbar-brand{
+        font-size: 2.25rem;
+    }
+
+}
